@@ -1,0 +1,33 @@
+
+@media (min-width: 1079px) {
+
+}
+
+
+
+@media (max-width: 1199px) {
+	#top-navbar .nav.navbar-nav.left {
+		margin-left: -13px;
+	}
+	#top-navbar .nav.navbar-nav.navbar-right {
+		margin-right: 38px;
+	}
+	#top-navbar .navbar-default .navbar-nav>li.type-4 {
+	    right: -27px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 650px)  {
+
+
+}
+@media (max-width: 510px) {
+
+}
+@media (min-width: 1460px) {
+
+}

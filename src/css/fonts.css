@@ -1,0 +1,37 @@
+/*
+	BlissPro
+*/
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibri.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibrib.ttf');
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibriz.ttf');
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Calibri';
+	src: url('../fonts/calibrii.ttf');
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'fontawesome';
+	src: url('../fonts/fontawesome-webfont.eot');
+	src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/fontawesome-webfont.woff') format('woff'),
+		 url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+		 url('../fonts/fontawesome-webfont.svg') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
