@@ -1,6 +1,11 @@
 
-@media (min-width: 1079px) {
-
+@media (min-width: 1199px) {
+    .plits .plit-block .image-holder {
+        height: 222px;
+    }
+    .slider-lg-main .image-holder {
+        max-height: 261px;
+    }
 }
 
 
@@ -13,7 +18,7 @@
 		margin-right: 38px;
 	}
 	#top-navbar .navbar-default .navbar-nav>li.type-4 {
-	    right: -27px;
+	    padding-left: 16px;
 	}
 	#navbar-secondary .nav.navbar-nav.navbar-right {
 		margin-right: 0px;
@@ -23,21 +28,49 @@
 	    margin-left: -10px;
 	}
 }
-
-
-@media (max-width: 767px) {
-	
+@media (min-width: 991px) {
+    .modal-lg {
+        width: 1140px;
+    }
 }
-@media (max-width: 650px)  {
-
-
+@media (max-width: 991px) {
+    .container  {
+        width: 600px;
+    }
+    .modal-lg {
+        width: 960px;
+    }
+    #navbar-secondary {
+        display: none;
+    }
+    .main-logo img {
+        width: 100px;
+    }
+    #top-navbar .navbar-default .navbar-nav>li>a {
+        font-size: 15px;
+    }
+    #top-navbar .navbar-default .navbar-nav>li>a img {
+        margin-right: 5px;
+    }
+    #top-navbar .nav.navbar-nav.navbar-right {
+        margin-right: 34px;
+    }
+    #top-navbar .navbar-default .navbar-nav>li.type-7 {
+        margin-right: 5px;
+    }
+    #top-navbar .navbar-default .navbar-nav li.type-1 {
+        margin-right: 6px;
+        margin-left: 6px;
+    }
+    #top-navbar .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+    }
+    #top-navbar .main-logo {
+        margin-top: 11px;
+    }
 }
-@media (max-width: 510px) {
 
-}
-@media (min-width: 1460px) {
 
-}
 
 
 
