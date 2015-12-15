@@ -1,3 +1,13 @@
+.top-serch,
+.news-dropdown {
+    display: none;
+}
+
+
+
+
+
+
 /*BSFIX*/
 .modal-backdrop.in {
     opacity: .7;
@@ -1141,17 +1151,25 @@ a.play-button {
     border-radius: 0;
     color: #fff;
 }
-.publication-section .breadcrumb img {
+.publication-section .breadcrumb img,
+.mobile-publication .breadcrumb img {
     margin-right: 10px;
 }
-.publication-section .breadcrumb span {
+.publication-section .breadcrumb span,
+.mobile-publication .breadcrumb span {
     margin-right: 10px;
 }
-.publication-section .breadcrumb li a {
+.publication-section .breadcrumb li a,
+.mobile-publication .breadcrumb li a {
     text-decoration: none;
     color: white;
 }
-.publication-section .breadcrumb>li+li:before {
+.mobile-publication .breadcrumb li a,
+.mobile-publication .breadcrumb li.active a {
+    color: #242424;
+}
+.publication-section .breadcrumb>li+li:before,
+.mobile-publication .breadcrumb>li+li:before {
     content: "";
     background-image: url(../img/png/gray-stick-sm.png);
     background-repeat: no-repeat;
@@ -1176,13 +1194,16 @@ a.play-button {
 .publication-section .breadcrumb>.active {
     color: #fff;
 }
-.publication-section .date-holder .left-part {
+.publication-section .date-holder .left-part,
+.mobile-publication .date-holder .left-part {
     width: 70%;
 }
-.publication-section .date-holder .right-part {
+.publication-section .date-holder .right-part,
+.mobile-publication .date-holder .right-part {
     width: 29%;
 } 
-.publication-section .date-holder .left-part span {
+.publication-section .date-holder .left-part span,
+.mobile-publication .date-holder .left-part span {
     width: 99px;
     height: 13px;
     color: #a8a8a8;
@@ -1190,10 +1211,12 @@ a.play-button {
     line-height: 23px;
     font-size: 14px;
 }
-.publication-section .author-block {
+.publication-section .author-block,
+.mobile-publication .author-block {
     padding-left: 0;
 }
-.publication-section .date-holder .left-part span.type-1 {
+.publication-section .date-holder .left-part span.type-1,
+.mobile-publication .date-holder .left-part span.type-1 {
     color: #242424;
     font-size: 15px;
     font-weight: 700;
@@ -1204,21 +1227,25 @@ a.play-button {
 .publication-section .date-holder .left-part span img {
     margin-bottom: 4px;
 }
-.publication-section .publication-body .image-holder {
+.publication-section .publication-body .image-holder,
+.mobile-publication .publication-body .image-holder {
     margin-bottom: 38px;
 }
-.publication-section .publication-body .text-holder p {
+.publication-section .publication-body .text-holder p,
+.mobile-publication .publication-body .text-holder p {
     color: #3d3d3d;
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
 }
-.publication-section  .video-block p {
+.publication-section  .video-block p,
+.mobile-publication  .video-block p {
     font-size: 26px;
     font-weight: 400;
     line-height: 29px;
 }
-.publication-section  .video-block .image-holder {
+.publication-section  .video-block .image-holder,
+.mobile-publication  .video-block .image-holder {
     margin-bottom: 36px;
 }
 .share-block .social-share-block {
@@ -1566,4 +1593,11 @@ button.close:hover .cross-hiden {
 .bt-slider .bx-viewport {
     background-color: #E6E7E8;
     box-shadow: none;
+}
+
+
+
+/*//////////////////mobile-publication////////////////////*/
+.mobile-publication h1 {
+    font-size: 41px;
 }
