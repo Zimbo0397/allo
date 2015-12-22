@@ -1,10 +1,23 @@
+@media (max-width: 1330px) {
+    .container.white-bg.modalcon {
+        width: 960px;
+    }
+}
+
+
 
 @media (min-width: 1199px) {
-    .plits .plit-block .image-holder {
+/*    .plits .plit-block .image-holder {
         height: 222px;
     }
     .slider-lg-main .image-holder {
         max-height: 261px;
+    }*/
+/*    .plit-block.sm {
+        height: 315px;
+    }*/
+    .social-block {
+        height: 303px;
     }
 }
 
@@ -22,10 +35,6 @@
 	}
 	#navbar-secondary .nav.navbar-nav.navbar-right {
 		margin-right: 0px;
-	}
-	#navbar-secondary .nav.navbar-nav.left {
-		letter-spacing: 0.4px;
-	    margin-left: -10px;
 	}
 }
 @media (min-width: 991px) {
@@ -45,10 +54,37 @@
         display: none;
     }
    #top-navbar .main-logo {
-        margin-top: 11px;
+        margin-top: 2px;
+    }
+    .col-md-4:hover .plit-block.sm {
+    z-index: 8;
     }
 }
 @media (max-width: 991px) {
+    .semislider-holder .bx-wrapper .bx-controls-direction a {
+        margin-top: -4px;
+    }
+    .semislider-holder .bx-wrapper .bx-next {
+        background: url(../img/png/layer-87-copy.png) no-repeat 13px 6px;
+        background-color: #fa0;
+        height: 35px;
+        width: 35px;
+    }
+    .filters-breadcrumb .back-button .button-block span {
+        display: none;
+    }
+    .plits .plit-block .image-holder {
+        height: auto;
+    }
+    .plit-backplate {
+        display: none;
+    }
+    .filters-breadcrumb {
+        margin-top: 8px;
+    } 
+    .plits.mrt {
+        margin-top: 60px;
+    }
     .navbar {
         min-height: 66px;
     }
@@ -103,12 +139,193 @@
     .top-serch.open {
         top: 66px;
     }
+/*    #top-navbar {
+        margin-bottom: 60px;
+    }*/
+    .plit-block.lg .image-holder {
+        height: auto;
+    }
+    .pagination>li.xs-hidden.sm-hidden,
+    .col-md-4.sm-hidden {
+        display: none;
+    }
+    .news-dropdown {
+        display: none;
+    }
+    .filters-holder .filters-body .right-block {
+        max-width: 369px;
+    }
+    .filters-body.open {
+        max-height: 521px;
+    }
+}
+@media (min-width: 700px) {
+    .main-pagination .pagin-button a {
+        padding: 18px;
+    }
+    .filters.type-2 {
+        display: none;
+    }
 }
 @media (max-width: 700px) {
-    .container  {
-        width: 303px;
+    .plits .plit-block .text-holder {
+        margin-top: 16px;
+    }
+    .filters.type-2 .filters-breadcrumb .breadcrumb {
+        margin-bottom: 0;
+    }
+    .filters.type-2 .type-filters {
+        margin-top: 5px;
+        max-width: 241px;
+        margin: 0 auto;
+    }
+     .filters.type-2 .type-filters {
+        min-width: 67px;
+     }
+    .mobile-publication .bt-slider .bx-wrapper .slide .image-holder {
+        margin-bottom: 17px;
+    }
+    .mobile-publication .bt-slider .bx-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .mobile-publication .bt-slider .label-holder {
+        margin-bottom: 29px;
+    }
+    .mobile-publication .label-lg {
+        font-size: 21px;
         padding-left: 20px;
         padding-right: 20px;
+        width: auto;
+    }
+    .mobile-publication .material-block {
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 9px;
+        max-width: 254px;
+    }
+    .mobile-publication .comments-blcok p {
+        font-size: 20px
+    }
+    .mobile-publication .comments-blcok .type-filters {
+        text-align: left;
+    }
+    .mobile-publication .side-bar .side-label {
+        margin: 10px auto;
+    }
+    .mobile-publication .side-bar .label-holder {
+        margin-bottom: 0;
+    }
+    .mobile-publication .side-bar .side-label span {
+        line-height: 19px;
+        height: 19px;
+        font-size: 21px;
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+    .mobile-publication .side-bar .side-label {
+        padding-top: 7px;
+        padding-right: 17px;
+    }
+    .mobile-publication .side-bar.first {
+        margin-top: 30px;
+    }
+    .mobile-publication .rates-block ul {
+        margin-top: 9px;
+    }
+    .mobile-publication .rates-block span {
+        font-size: 21px;
+    }
+    .mobile-publication .rates-block {
+        margin-top: 22px;
+    }
+    .mobile-publication .share-status-block {
+        height: 46px;
+        padding-top: 5px;
+        vertical-align: middle;
+    }
+    .mobile-publication .share-status-block span {
+        vertical-align: middle;
+    }
+    .mobile-publication .share-block .social-share-block {
+        width: 240px;
+        height: 48px;
+    }
+    .mobile-publication .share-block .social-share-block ul li {
+        width: 48.6px;
+    }
+    .mobile-publication .video-block p {
+        font-size: 19px;
+        line-height: 25px;
+        margin-bottom: 17px;
+    }
+    .mobile-publication .video-block .image-holder {
+        margin-bottom: 28px;
+    }
+    .mobile-publication .pub-slider-blcok {
+        margin-top: 38px;
+    }
+    .mobile-publication .pub-slider-blcok #slider .flex-direction-nav {
+        display: none;
+    }
+    .mobile-publication .publication-body .text-holder p {
+        line-height: 26.65px;
+        margin-bottom: 25px;
+    }
+    .mobile-publication .publication-body .image-holder {
+        margin-bottom: 25px;
+    }
+    .mobile-publication .article-header .author-block .date-holder .right-part {
+        position: absolute;
+        bottom: 0;
+        right: 91px;
+    }
+    .mobile-publication .breadcrumb {
+        margin-bottom: 3px;
+    }
+    .mobile-publication .row {
+        padding: 0;
+    }
+    .main-pagination .pagin-button a {
+        padding: 18px; 
+    }
+    .plit-block.lg .text-holder h1 {
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+    .plit-block.lg .text-holder p {
+        display: none;
+    }
+    .filters-breadcrumb .breadcrumb>li+li:before {
+        line-height: 38px;
+        vertical-align: middle; 
+        font-size: 19px;
+    }
+    .filters-breadcrumb .breadcrumb a {
+        font-size: 17px;
+    }
+    .filters-breadcrumb .breadcrumb li.active {
+        font-size: 17px;
+    }
+    .plits.mrt {
+        margin-top: 30px;
+    } 
+    .filters.type-2 .filters-body.open {
+        max-height: 822px;
+    }
+    .container  {
+        width: 303px;
+        padding-left: 10px;
+        padding-right: 13px;
+    }
+    .filters-breadcrumb .breadcrumb a.back-button {
+        display: none;
+    }
+    .col-xs-6 {
+        width: 100%;
     }
     .xs-hidden {
         display: none;
@@ -120,7 +337,9 @@
         width: 212px;
     }
     .mobile-publication h1 {
-        font-size: 34px;
+        font-size: 28px;
+        max-width: 273px;
+        line-height: 30px;
     }
     .mobile-publication .date-holder .left-part {
         width: 69%;
@@ -128,7 +347,7 @@
     .mobile-publication .date-holder .left-part span.type-1 {
         width: 100%;
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
     }
     .comments-blcok .type-filters {
         text-align: center;
@@ -140,7 +359,7 @@
     .footer {
         padding: 39px 0px;
     } 
-    .breadcrumb li:nth-child(1n+3) {
+    .mobile-publication .breadcrumb li:nth-child(1n+3) {
         display: none;
     }
     .bt-slider .bx-wrapper .bx-prev {
@@ -160,6 +379,59 @@
     } 
     #top-navbar .main-logo {
         margin-top: 0;
+    }
+    .plit-block.sm {
+        margin-bottom: 5px;
+    } 
+    .slider-lg-main {
+        margin-bottom: 40px;
+    }
+    .slider-lg-main .bx-wrapper .bx-next {
+        background: url(../img/png/layer-87-copy.png) no-repeat 10px 8px;
+        background-color: #fa0;
+        height: 35px;
+        width: 35px;
+    }
+    .plit-block.lg .author-block {
+        display: none;
+    } 
+    .plit-block.sm {
+        height: auto;
+    }
+    .label-lg {
+        height: auto;
+        min-height: 46px;
+        padding-left: 50px;
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .label-lg img {
+        position: absolute;
+        left: 12px;
+        top: 10px;
+    }
+/*    .label-lg span {
+        line-height: 25px;
+    }*/
+    a.play-button {
+        transform: translateX(50%) translateY(-50%)
+    }
+    .main-pagination .pagin-button a span {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .pagination>li.xs-hidden {
+        display: none;
+    } 
+    .main-pagination .pagination>li>a {
+        height: 66px;
+        width: 66px;
+    }
+    .social-block {
+        width: 264px;
+    }
+    .filters.type-1 {
+        display: none;
     }
 }
 

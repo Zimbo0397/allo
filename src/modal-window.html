@@ -21,48 +21,57 @@
 		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
 	</head>
 	<body>
+
 		<div id="md-open9" class="mobile-top-navbar">
 			<ul class="top-mobile-list">
-				<li>
+				<li class="type-1">
 					<img src="img/png/book-icon.png" alt="">
 					<img src="img/png/book-xs-white.png" class="hover-show" alt="">
-					<a href="">НОВОСТИ</a>
+					<a href="">
+						<div class="bg-color">НОВОСТИ</div>
+					</a>
 				</li>
-				<li>
+				<li class="type-2 active">
 					<img src="img/png/triang-icon.png" alt="">
 					<img src="img/png/play-xs-white.png" class="hover-show" alt="">
-					<a href="">ВИДЕО</a>
+					<a href="modal-window.html">
+						<div class="bg-color">ВИДЕО</div>
+					</a>
 				</li>
-				<li>
+				<li class="type-3">
 					<img src="img/png/rp-icon.png" alt="">
 					<img src="img/png/rp-xs-white.png" class="hover-show" alt="">
-					<a href="">АНОНСЫ</a>
+					<a href=""><div class="bg-color">АНОНСЫ</div></a>
 				</li>
-				<li>
+				<li class="type-4">
 					<img src="img/png/question-icon.png" alt="">
 					<img src="img/png/question-xs-white.png" class="hover-show" alt="">
-					<a href="">ВОПРОСЫ</a>
+					<a href=""><div class="bg-color">ВОПРОСЫ</div></a>
 				</li>
-				<li>
+				<li class="type-5">
 					<img src="img/png/star-icon.png" alt="">
 					<img src="img/png/star-xs-white.png" class="hover-show" alt="">
-					<a href="">АКЦИИ</a>
+					<a href=""><div class="bg-color">АКЦИИ</div></a>
 				</li>
-				<li>
+				<li class="type-6">
 					<img src="img/png/all-pin-icin.png" alt="">
 					<img src="img/png/all-pin-white.png" class="hover-show" alt="">
-					<a href="">ALLO.UA</a>
+					<a href=""><div class="bg-color">ALLO.UA</div></a>
 				</li>
 			</ul>
 			<ul class="top-secondary-list">
 				<li><a href="">CМАРТФОНЫ</a></li>
+				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
 				<li><a href="">ПЛАНШЕТЫ</a></li>
 				<li><a href="">НОУТБУКИ</a></li>
-				<li><a href="">ФОТОТЕХНИКА</a></li>
+				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
+				<li><a href="subject.html">ФОТОТЕХНИКА</a></li>
 				<li><a href="">ТЕЛЕВИЗОРЫ</a></li>
+				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
 				<li><a href="">БЫТОВАЯ ТЕХНИКА</a></li>
 				<li><a href="">АКСЕССУАРЫ</a></li>
 				<li><a href="">СОФТ</a></li>
+				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
 			</ul>
 			<ul class="list-inline top-insoc-list">
 				<li>
@@ -114,6 +123,8 @@
 				</a>
 			</div>
 		</div>
+		<div id="mobile-shadow"></div>
+
 		<section id="md-open4"class="top-serch">
 				<div class="container">
 					<div class="row">
@@ -293,7 +304,7 @@
 									<li class="type-7"><a href="#">CМАРТФОНЫ</a></li>
 									<li class="type-7"><a href="#">ПЛАНШЕТЫ</a></li>
 									<li class="type-7"><a href="#">НОУТБУКИ</a></li>
-									<li class="type-7"><a href="#">ФОТОТЕХНИКА</a></li>
+									<li class="type-7"><a href="subject.html">ФОТОТЕХНИКА</a></li>
 								</ul>
 								<ul class="nav navbar-nav navbar-right">
 									<li class="type-7"><a href="#">ТЕЛЕВИЗОРЫ</a></li>
@@ -385,10 +396,7 @@
 								Адам Сэвидж и Джейми Хайнеман, ведущие популярного телевизионного шоу «Разрушители легенд», рассказали про историю стекла и показали все преимущества Gorilla Glass на практике.
 							</p>
 							<p>
-								Во время экспериментов ведущие били, гнули, царапали и даже стреляли в разные типы стёкол. На сегодняшний день в большинстве смартфонов и планшетов Посмотреть две серии передачи стоит не только ради интересной и познавательной информации, но и ради захватывающих моментов разбития стекла, показанного в замедленной съёмке с частотой 10 000 кадров в секунду.
-							</p>
-							<p>
-								На сегодняшний день в большинстве смартфонов и планшетов установлены стёкла Gorilla Glass компании Corning, которые устойчивы к царапинам и гораздо более прочнее обычных стекол.
+								Во время экспериментов ведущ<br>ие били, гнули, царапали и даже стреляли в разные типы стёкол. На сегодняшний день в большинстве смартфонов и планшетов Посмотреть две серии передачи стоит не только
 							</p>
 							</div>
 						</div>
@@ -530,7 +538,7 @@
 							<span class="type-2">
 								Всего голосов: 15
 							</span>
-							<ul class="list-unstyled list-inline">
+							<ul class="list-unstyled list-inline stars-line">
 								<li><i class="fa fa-star-o"></i></li>
 								<li><i class="fa fa-star-o"></i></li>
 								<li><i class="fa fa-star-o"></i></li>
@@ -538,7 +546,7 @@
 								<li><i class="fa fa-star-o"></i></li>
 							</ul>
 						</div>
-						<div class="side-bar">
+						<div class="side-bar first">
 							<div class="label-holder">
 								<div class="side-label">
 									<img src="img/png/layer-2055675.png" alt="">
@@ -739,9 +747,7 @@
 								</ul>
 							</div>
 							<div class="comments-body">
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam facere est quos debitis alias delectus dolorem perspiciatis facilis, ab, at repellat ipsum animi, explicabo esse voluptatibus. Fuga deleniti illo quis itaque blanditiis cumque officiis eveniet quibusdam quod dicta molestiae animi perspiciatis error et quasi voluptatem beatae laboriosam ab vero, nobis enim laudantium quo laborum saepe. Quidem iure, impedit autem dolorem minima placeat. Explicabo, vitae, qui, eaque nihil cupiditate blanditiis odio quibusdam accusamus officia reiciendis fugiat officiis illum, expedita ea. Deserunt rem quidem magni quisquam! Ex illum quod, ad culpa, ratione laborum consectetur voluptate, adipisci beatae facere ipsam eveniet alias! Voluptatem asperiores cupiditate expedita quas dolorum dolore dicta minima accusantium labore vel tempore ad atque velit officia distinctio, saepe, quis optio corporis error eum impedit sunt repudiandae quod. Voluptate, temporibus a consequatur sit dicta voluptas. Minima nobis, veritatis at. Illum iste aut inventore cupiditate eius dolores deserunt veniam, quibusdam voluptate placeat? Voluptas molestias iure corporis, numquam facilis eveniet nesciunt qui, tenetur aperiam odio illum dolores doloremque quibusdam praesentium vero impedit quam in voluptatibus quae, id. Eum nulla quasi natus ab voluptatem, fuga odit? Mollitia aliquam, maiores quam, illo minus cumque dignissimos nemo facere quia, deleniti autem praesentium aliquid dolore ab officia odio veritatis nihil incidunt, beatae eius nostrum blanditiis. Necessitatibus neque illum, officia laboriosam maxime omnis ad architecto ducimus numquam explicabo incidunt laudantium assumenda eum possimus ullam id, a tenetur eaque dolore voluptatem ut nisi culpa odio! Expedita, dolorum magnam facilis alias consectetur eligendi porro recusandae totam saepe doloremque, iste provident nam officia, velit tempore deleniti veritatis itaque fugit fugiat ratione quae. Eum provident, quibusdam quaerat aperiam aliquam dignissimos blanditiis temporibus accusantium optio veniam maiores assumenda sit tempore vero vel, eveniet labore quo quos, vitae reiciendis, officiis? Quos autem repellendus sed delectus, quaerat sapiente esse sequi magni beatae eos ea, consequuntur animi nam nostrum, temporibus enim rerum nemo! Distinctio quidem temporibus expedita fugiat eos rem, ut debitis consectetur nam sapiente asperiores ipsa ducimus quisquam modi similique aut, atque vitae tenetur sit ullam eaque iure optio! Vel obcaecati distinctio commodi tenetur. Delectus hic, nemo vero ad quibusdam tempore quas reprehenderit quaerat cupiditate ea, saepe itaque ipsa, doloribus amet. Cumque nemo modi, reiciendis magni itaque voluptas, consectetur. Officiis, voluptatibus, itaque. Rem aperiam fugit reiciendis facere? Esse ipsum magnam alias quam debitis eius numquam fuga id fugiat similique facere fugit eligendi adipisci laudantium voluptas ducimus quod assumenda, deleniti, aspernatur nemo. Omnis dolore esse illum.
-								</p>
+								
 							</div>
 						</div>
 						<div class="side-bar">
@@ -1015,6 +1021,7 @@
 					e.preventDefault ();
 					console.log($('#md-open9').get(0))
 					$('#md-open9').toggleClass('open');
+					$('#mobile-shadow').toggleClass('active');
 				});
 				$('.bxslider').bxSlider({
 				  pagerCustom: '#bx-pager'
@@ -1027,6 +1034,7 @@
 					});
 				  $('.slider8').bxSlider({
 				    mode: 'vertical',
+				    touchEnabled: false,
 				    slideWidth: 300,
 				    minSlides: 2,
 				    slideMargin: 10
@@ -1039,7 +1047,7 @@
 					    animationLoop: false,
 					    slideshow: false,
 					    itemWidth: 104,
-					    itemMargin: 5,
+					    itemMargin: 6,
 					    asNavFor: '#slider'
 					  });
 					 
