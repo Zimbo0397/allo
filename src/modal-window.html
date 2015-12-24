@@ -70,8 +70,8 @@
 				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
 				<li><a href="">БЫТОВАЯ ТЕХНИКА</a></li>
 				<li><a href="">АКСЕССУАРЫ</a></li>
-				<li><a href="">СОФТ</a></li>
 				<li><img src="img/png/gray-stick-sm.png" alt=""></li>
+				<li><a href="">СОФТ</a></li>
 			</ul>
 			<ul class="list-inline top-insoc-list">
 				<li>
@@ -123,6 +123,7 @@
 				</a>
 			</div>
 		</div>
+		
 		<div id="mobile-shadow"></div>
 
 		<section id="md-open4"class="top-serch">
@@ -758,52 +759,54 @@
 								</span>
 							</div>
 							<div class="material-block">
-								<p>
+								<a href="">
 									ТОП-20 приложений для Android
+								</a>
+								<p>
+									<time>
+										<img src="img/png/layer-197-copy-6.png" alt="">
+										27 ноября, 2014, 15:03
+									</time>
 								</p>
-								<time>
-									<img src="img/png/layer-197-copy-6.png" alt="">
-									27 ноября, 2014, 15:03
-								</time>
 							</div>
 							<div class="material-block">
+								<a href="">Обзор смартфона Lenovo Vibe X2</a>
 								<p>
-									Обзор смартфона Lenovo Vibe X2
+									<time>
+										<img src="img/png/layer-197-copy-6.png" alt="">
+										27 ноября, 2014, 15:03
+									</time>
 								</p>
-								<time>
-									<img src="img/png/layer-197-copy-6.png" alt="">
-									27 ноября, 2014, 15:03
-								</time>
 							</div>
 							<div class="material-block">
+									<a href="">Разрушители легенд сравнили Gorilla Glass с другими защитными стёклами</a>
 								<p>
-									Разрушители легенд сравнили Gorilla Glass с другими защитными стёклами
+									<time>
+										<img src="img/png/layer-197-copy-6.png" alt="">
+										27 ноября, 2014, 15:03
+									</time>
 								</p>
-								<time>
-									<img src="img/png/layer-197-copy-6.png" alt="">
-									27 ноября, 2014, 15:03
-								</time>
 							</div>
 							<div class="material-block">
+								<a href="">Обзор изогнутого 
+										смартфона Samsung 
+										Galaxy Note Edge</a>
 								<p>
-									Обзор изогнутого 
-									смартфона Samsung 
-									Galaxy Note Edge
+									<time>
+										<img src="img/png/layer-197-copy-6.png" alt="">
+										27 ноября, 2014, 15:03
+									</time>
 								</p>
-								<time>
-									<img src="img/png/layer-197-copy-6.png" alt="">
-									27 ноября, 2014, 15:03
-								</time>
 							</div>
 							<div class="material-block">
+								<a href="">Обзор смартфона
+										Lenovo Vibe X2</a>
 								<p>
-									Обзор смартфона
-									Lenovo Vibe X2
+									<time>
+										<img src="img/png/layer-197-copy-6.png" alt="">
+										27 ноября, 2014, 15:03
+									</time>
 								</p>
-								<time>
-									<img src="img/png/layer-197-copy-6.png" alt="">
-									27 ноября, 2014, 15:03
-								</time>
 							</div>
 						</div>
 					</div>
@@ -815,7 +818,7 @@
 				                </span>
 				            </div>
 				        </div>
-						<div class="slider1">
+						<div class="slider10">
 							<div class="slide">
 				                <div class="plit-block sm">
 				                    <div class="label-ico">
@@ -999,39 +1002,10 @@
 		<script src="js/vendor/jquery-2.1.4.min.js"></script>
 		<script src="js/jquery.bxslider.min.js"></script>
 		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/vendor/likely.js"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
-		   <script>
-				$('#show-open').on('click', function () {
-					$(this).closest('#tr-1').toggleClass('open');
-				});
-				$('#show-close').on('click', function () {
-					$(this).closest('#tr-1').toggleClass('open');
-				});
-				$('#md-show4').on('click', function () {
-					$('#md-open4').toggleClass('open');
-				});
-				$('#md-show6').on('click', function () {
-					$('#md-open4').toggleClass('open');
-				});
-				$('#md-show5').on('click', function () {
-					$('#md-open5').toggleClass('open');
-				});
-				$('.md-show9').on('click', function (e) {
-					e.preventDefault ();
-					console.log($('#md-open9').get(0))
-					$('#md-open9').toggleClass('open');
-					$('#mobile-shadow').toggleClass('active');
-				});
-				$('.bxslider').bxSlider({
-				  pagerCustom: '#bx-pager'
-				});
-				$('.slider1').bxSlider({
-					slideWidth: 263,
-					minSlides: 1,
-					maxSlides: 2,
-					slideMargin: 0
-					});
+				<script>
 				  $('.slider8').bxSlider({
 				    mode: 'vertical',
 				    touchEnabled: false,

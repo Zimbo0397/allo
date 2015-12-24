@@ -1,0 +1,41 @@
+/************************************************************* Social block Hide *************************************************************/
+/*------------------------------------------------- .social-counters -------------------------------------------------*/
+.social-counters {
+	height: 320px;
+	transition: height 2s ease-in-out;
+}
+/*------------------------------------------------- .social-counters  >  .likely__widget -------------------------------------------------*/
+.social-counters .likely > .likely__widget {
+	height: 80px;
+	/*transition: height 2s ease-in-out;*/
+	transition: height 700ms ease-in-out, margin-bottom 700ms ease-in-out, padding-top 700ms ease-in-out;
+}
+.social-counters .likely > .likely__widget:not(:last-child) .likely__icon > svg {
+	height: 23px;
+	transition: height 200ms ease-in;
+}
+.social-counters .likely > .likely__widget.to-hide-social .likely__button > img {
+	margin: 0 0 0 -23px;
+	transform: rotate(0deg);
+    transition: transform 600ms ease-in;	
+}
+/*------------------------------------------------- .social-counters.to-hide -------------------------------------------------*/
+.social-counters.to-hide {
+	height: 80px;
+	transition: height 2s ease-in-out;
+}
+/*------------------------------------------------- .social-counters.to-hide  >  .likely__widget -------------------------------------------------*/
+.social-counters.to-hide .likely > .likely__widget:not(:last-child) {
+	margin-bottom: 0;
+	padding-top: 0;
+	height: 0;
+	transition: height 700ms ease-in-out, margin-bottom 700ms ease-in-out, padding-top 700ms ease-in-out;
+}
+.social-counters.to-hide .likely > .likely__widget:not(:last-child) .likely__icon > svg {
+	height: 0;
+	transition: height 200ms ease-in;
+}
+.social-counters.to-hide .likely > .likely__widget.to-hide-social .likely__button > img {
+	transform: rotate(180deg);
+    transition: transform 600ms ease-in;
+}

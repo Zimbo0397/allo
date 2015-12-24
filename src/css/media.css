@@ -58,9 +58,21 @@
     }
     .col-md-4:hover .plit-block.sm {
     z-index: 8;
+    -webkit-transition: z-index ease 0.05s;
+    -o-transition: z-index ease 0.05s;
+    transition: z-index ease 0.05s;
     }
 }
 @media (max-width: 991px) {
+    .mobile-publication .share-block .social-share-block ul li {
+        width: 47.5px;
+    }
+    .share-block .social-share-block ul li {
+        padding-top: 5px;
+    }
+    .slider-lg-main .image-holder {
+        height: 137px;
+    }
     .semislider-holder .bx-wrapper .bx-controls-direction a {
         margin-top: -4px;
     }
@@ -168,6 +180,28 @@
     }
 }
 @media (max-width: 700px) {
+    .play-button {
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url(../img/png/play-ico-sm.png);
+    -webkit-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    border-top-right-radius: 0;
+    }
+    .label-lg {
+        padding-right: 14px;
+    }
+    .semislider-holder .bx-wrapper {
+        overflow: hidden;
+        margin: 0 auto 40px;
+    }   
+    .plit-block.lg .image-holder {
+        height: 202px;
+    }
     .plits .plit-block .text-holder {
         margin-top: 16px;
     }
@@ -181,6 +215,8 @@
     }
      .filters.type-2 .type-filters {
         min-width: 67px;
+        margin-top: 20px;
+        margin-bottom: 20px;
      }
     .mobile-publication .bt-slider .bx-wrapper .slide .image-holder {
         margin-bottom: 17px;
@@ -250,9 +286,6 @@
     .mobile-publication .share-block .social-share-block {
         width: 240px;
         height: 48px;
-    }
-    .mobile-publication .share-block .social-share-block ul li {
-        width: 48.6px;
     }
     .mobile-publication .video-block p {
         font-size: 19px;
@@ -381,13 +414,13 @@
         margin-top: 0;
     }
     .plit-block.sm {
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     } 
     .slider-lg-main {
         margin-bottom: 40px;
     }
     .slider-lg-main .bx-wrapper .bx-next {
-        background: url(../img/png/layer-87-copy.png) no-repeat 10px 8px;
+        background: url(../img/png/layer-87-copy.png) no-repeat 12px 6px;
         background-color: #fa0;
         height: 35px;
         width: 35px;
@@ -402,8 +435,8 @@
         height: auto;
         min-height: 46px;
         padding-left: 50px;
-        width: 100%;
         padding-bottom: 5px;
+        position: relative;
     }
     .label-lg img {
         position: absolute;
