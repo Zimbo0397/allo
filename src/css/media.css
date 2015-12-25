@@ -64,6 +64,9 @@
     }
 }
 @media (max-width: 991px) {
+    .social-block {
+        height: 236px;
+    }
     .mobile-publication .share-block .social-share-block ul li {
         width: 47.5px;
     }
@@ -171,7 +174,7 @@
         max-height: 521px;
     }
 }
-@media (min-width: 700px) {
+@media (min-width: 625px) {
     .main-pagination .pagin-button a {
         padding: 18px;
     }
@@ -179,18 +182,30 @@
         display: none;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 625px) {
     .play-button {
-    top: 0;
-    right: 0;
-    height: 40px;
-    width: 40px;
-    background-image: url(../img/png/play-ico-sm.png);
-    -webkit-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-    transform: none;
-    border-top-right-radius: 0;
+        top: 0;
+        right: 0;
+        height: 40px;
+        width: 40px;
+        background-image: url(../img/png/play-ico-sm.png);
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        border-top-right-radius: 0;
+    }
+    .plit-block:hover .play-button {
+        top: 0;
+        right: 0;
+        height: 40px;
+        width: 40px;
+        background-image: url(../img/png/play-ico-sm.png);
+        -webkit-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+        transform: none;
+        border-top-right-radius: 0;
     }
     .label-lg {
         padding-right: 14px;
@@ -203,7 +218,7 @@
         height: 202px;
     }
     .plits .plit-block .text-holder {
-        margin-top: 16px;
+        margin-top: 5px;
     }
     .filters.type-2 .filters-breadcrumb .breadcrumb {
         margin-bottom: 0;
@@ -262,6 +277,7 @@
     .mobile-publication .side-bar .side-label {
         padding-top: 7px;
         padding-right: 17px;
+        margin-top: 0;
     }
     .mobile-publication .side-bar.first {
         margin-top: 30px;
@@ -274,6 +290,7 @@
     }
     .mobile-publication .rates-block {
         margin-top: 22px;
+        margin-bottom: 20px;
     }
     .mobile-publication .share-status-block {
         height: 46px;
@@ -281,7 +298,8 @@
         vertical-align: middle;
     }
     .mobile-publication .share-status-block span {
-        vertical-align: middle;
+        vertical-align: bottom;
+        line-height: 19px;
     }
     .mobile-publication .share-block .social-share-block {
         width: 240px;
@@ -461,11 +479,18 @@
         width: 66px;
     }
     .social-block {
-        width: 264px;
+        width: 287px;
     }
     .filters.type-1 {
         display: none;
     }
+    .rates-block span.type-2 {
+        margin-left: 0;
+        margin-bottom: 25px;
+        font-size: 19px;
+        display: block;
+        width: 100%;
+    } 
 }
 
 
